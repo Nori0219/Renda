@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         tapButton.layer.cornerRadius = 125
+        //tapButton.clipsToBounds = true
     }
     
     @IBAction func tapTapButton() {
